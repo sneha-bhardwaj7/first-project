@@ -1,0 +1,182 @@
+/* .headers{
+    text-align: center;
+    margin: 10px;
+}
+.top{
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 70px;
+    text-align: center;
+}
+button{
+    
+    background: linear-gradient(90deg, #0158F7 0%, #7839EE 100%);
+  color: white;
+  border: none;
+  padding: 4px 4px;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.gradient-text {
+    background: linear-gradient(90deg, #0158F7 0%, #7839EE 100%); /* Use the gradient colors from your screenshot */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  } */ 
+ /* General Container Styling */
+.headers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Top section styling */
+  .top {
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 0;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(90deg, #0158F7 0%, #7839EE 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .top h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top: 0;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0 40px 0;
+    max-width: 600px;
+  }
+  
+  /* Input and Button Container */
+  input[type='text'], button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  input[type='text'] {
+    width: 300px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background: linear-gradient(90deg, #0158F7 0%, #7839EE 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(90deg, #7839EE 0%, #0158F7 100%);
+  }
+  
+  /* Image styling */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .heading {
+      font-size: 56px;
+      line-height: 72px;
+    }
+  
+    .top h1 {
+      font-size: 56px;
+      line-height: 72px;
+    }
+  
+    p {
+      font-size: 16px;
+      max-width: 500px;
+    }
+  
+    input[type='text'] {
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .heading {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  
+    .top h1 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  
+    p {
+      font-size: 16px;
+      max-width: 450px;
+    }
+  
+    input[type='text'] {
+      width: 220px;
+    }
+  
+    button {
+      padding: 10px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .heading {
+      font-size: 36px;
+      line-height: 48px;
+    }
+  
+    .top h1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+  
+    p {
+      font-size: 14px;
+      max-width: 320px;
+    }
+  
+    input[type='text'] {
+      width: 180px;
+    }
+  
+    button {
+      padding: 8px 14px;
+      font-size: 16px;
+    }
+  }
+  
+  
